@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('fonts/minha-fonte.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+body {
+    background: #141414 ;
+    font-family: 'MinhaFonte', sans-serif;
+}
+.container-pai {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background: #1f1f1f ;
+    width: 18rem;
+    border-radius: 12px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.nome {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.local {
+     color: #c4f82a;
+     font-weight: bold;
+     font-size: 14px;
+     margin-top: 5px;
+}
+.descricao{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+button {
+    background: #333333;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+button:hover {
+    background-color: #c4f82a;
+    color: #1f1f1f;
+}
